@@ -13,10 +13,10 @@ body {
   font-family: 'Press Start 2P', cursive;
   background: #f4eaff;
   display: flex;
+  align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  overflow-y: auto;
-  padding: 20px 0;
+  height: 100vh;
+  overflow: hidden;
   color: #6b3fa0;
 }
 
@@ -44,6 +44,8 @@ body {
   padding: 20px;
   text-align: center;
   display: none;
+  max-height: 85vh;
+overflow-y: auto;
 }
 
 .window.active {
@@ -194,4 +196,5 @@ function closeError(){
 
 </body>
 </html>
+
 
